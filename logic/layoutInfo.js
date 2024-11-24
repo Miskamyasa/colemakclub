@@ -1,6 +1,15 @@
 var alphabet = "abcdefghijklmnopqrstuvwxyz";
 
 levelDictionaries = {
+	soul: {
+		'lvl1': 'asrtneio',
+		'lvl2': 'dmch',
+		'lvl3': 'wluy',
+		'lvl4': 'gf',
+		'lvl5': 'pkvb',
+		'lvl6': 'qzxj',
+		'lvl7': alphabet,
+	},
 	azerty : {
 		'lvl1' : 'qsdfjklm',
 		'lvl2' : 'gh',
@@ -106,6 +115,45 @@ levelDictionaries = {
 
 
 var layoutMaps = {
+	soul: {
+		'Minus': "-",
+		'Equal': "=",
+		'KeyQ': "q",
+		'KeyW': 'w',
+		'KeyE': 'l',
+		'KeyR': 'd',
+		'KeyT': 'p',
+		'KeyY': 'k',
+		'KeyU': 'm',
+		'KeyI': 'u',
+		'KeyO': 'y',
+		'KeyP': '[',
+		'BracketLeft': '{',
+		'BracketRight': '\\',
+		'Backslash': '\;',
+		'KeyA': 'a',
+		'KeyS': 's',
+		'KeyD': 'r',
+		'KeyF': 't',
+		'KeyG': 'g',
+		'KeyH': 'f',
+		'KeyJ': 'n',
+		'KeyK': 'e',
+		'KeyL': 'i',
+		'Semicolon': 'o',
+		'Quote': ",",
+		'KeyZ': 'z',
+		'KeyX': 'x',
+		'KeyC': 'c',
+		'KeyV': 'v',
+		'KeyB': 'j',
+		'KeyN': 'b',
+		'KeyM': 'h',
+		'Comma': '<',
+		'Period': '\'',
+		'Slash': '/',
+		'shiftLayer': 'default',
+	},
 	azerty : {
 		'Minus' : ")",
 		'Equal' : "=",
